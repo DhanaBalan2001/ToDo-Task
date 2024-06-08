@@ -38,12 +38,12 @@ function ToDoCard({ toDo, setToDo, name, setName, desc, setDesc, button, setButt
       {toDo.map((e, i) => {
         return (
           <div key={i}>
-            <Card style={{ width: "20rem", backgroundColor: "lightblue" }}>
+            <Card style={{ width: "25rem", backgroundColor: "lightblue" }}>
               <Card.Body>
                 <Card.Text>
                   <div>
                     <p>
-                      Name: <span>{e.name}</span>
+                      TaskName: <span>{e.name}</span>
                     </p>
                     <p>
                       Description: <span>{e.desc}</span>

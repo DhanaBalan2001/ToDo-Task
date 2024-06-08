@@ -9,26 +9,26 @@ function ToDo() {
   let [initialValue, setValue] = useState([
     {
       id: 1,
-      name: "Task-1",
-      desc: "Description of first task",
+      name: "Task 01",
+      desc: "Add description here for the fourth task",
       status: 2,
     },
     {
       id: 2,
-      name: "Task-2",
-      desc: "Description of second task",
+      name: "Task 02",
+      desc: "Add description here for the fourth task",
       status: 2,
     },
     {
       id: 3,
-      name: "Task-3",
-      desc: "Description of third task",
+      name: "Task 03",
+      desc: "Add description here for the fourth task",
       status: 2,
     },
     {
       id: 4,
-      name: "Task-4",
-      desc: "Description of fourth task",
+      name: "Task 04",
+      desc: "Add description here for the fourth task",
       status: 2,
     },
     
@@ -92,7 +92,7 @@ function ToDo() {
   return (
     <>
       <h1 className="d-flex justify-content-center" style={{ color: "black" }}>
-        My ToDo
+        ToDo List
       </h1>
       <div className="d-flex justify-content-center">
         <div className="w-50 d-flex p-5">
@@ -123,7 +123,7 @@ function ToDo() {
       </div>
       <div>
         <div className="w-70 d-flex justify-content-around">
-          <b>My ToDo's</b>
+          <b>Existing ToDo List:</b>
           <div className="w-40">
             <Form.Label className="d-flex justify-content-start align-items-center">
               <b className="w-100">Filter: </b>&nbsp;
